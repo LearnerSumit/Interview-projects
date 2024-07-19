@@ -37,7 +37,7 @@ function UserDashboard({ userData }) {
               <p className="mt-1 text-md font-medium text-primary">{job_title}</p>
             </div>
             <div className="flex items-center gap-2">
-              <h3 className="text-[18px] text-light-text font-semibold mb-2">
+              <h3 className="text-[18px] text-light-text font-medium mb-2">
                 Work
               </h3>
               <div className="w-[80%] border-b border-dashed border-gray-300"></div>
@@ -48,7 +48,7 @@ function UserDashboard({ userData }) {
               projectDesc={secondary_address.address}
             />
             <div className="flex items-center gap-2">
-              <h3 className="text-[18px] text-light-text font-semibold mb-2">
+              <h3 className="text-[18px] text-light-text font-medium mb-2">
                 Skill
               </h3>
               <div className="w-[80%] border-b border-dashed border-gray-300"></div>
@@ -93,7 +93,7 @@ function UserDashboard({ userData }) {
                 <span>{contacts}</span>
               </button>
               <button className="text-[17px] text-light-header font-semibold border border-light-header rounded-md px-2">
-              <i class="ri-error-warning-line mr-1"></i>
+              <i className="ri-error-warning-line mr-1"></i>
                 {report}
               </button>
             </div>
@@ -102,17 +102,17 @@ function UserDashboard({ userData }) {
           <div className="flex gap-6 border-b border-dashed border-gray-300 mb-6">
             <a href="#" className="pb-1">
               <i className="ri-time-line mr-[2px] text-light-text font-semibold"></i>
-              <span className="text-light-text font-bold">{work[0]}</span>
+              <span className="text-light-text font-medium">{work[0]}</span>
             </a>
             <a href="#" className="pb-1 border-b-2 border-primary">
               <i className="ri-shield-user-line mr-[2px] text-light-text font-semibold"></i>
-              <span className="text-light-text font-bold">{work[1]}</span>
+              <span className="text-light-text font-medium">{work[1]}</span>
             </a>
           </div>
           {/* Contact Information */}
           <div>
             <div className="flex items-center gap-2">
-              <h3 className="text-[18px] text-light-text font-semibold mb-2">
+              <h3 className="text-[18px] text-light-text font-medium mb-2">
                 Contact Information
               </h3>
               <div className="w-[40%] border-b border-dashed border-gray-300"></div>
@@ -143,7 +143,7 @@ function UserDashboard({ userData }) {
           {/* Personal Information */}
           <div>
             <div className="flex items-center gap-2">
-              <h3 className="text-[18px] text-light-text font-semibold mb-2">
+              <h3 className="text-[18px] text-light-text font-medium mb-2">
                 Personal Information
               </h3>
               <div className="w-[40%] border-b border-dashed border-gray-300"></div>

@@ -3,13 +3,17 @@ import Header from "./components/Header";
 import UserDashboard from "./components/userDashboard/UserDashboard";
 
 function App() {
-  const API_URL = "https://api.npoint.io/7ccfb632b650585cd143";
+  // const API_URL = "https://api.npoint.io/7ccfb632b650585cd143";
+  const API_URL = "./data.json";
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // console.log(data);
+  // console.log(error)
 
+  console.log(data);
+
+  // data fetch function 
   const fetchUserData = async (url) => {
     try {
       const response = await fetch(url);
@@ -30,15 +34,14 @@ function App() {
       setLoading(false);
     }
   };
+  
 
+
+  // useEffect for data fetching
   useEffect(() => {
     fetchUserData(API_URL);
-    console.log("useEffect");
+    // console.log("useEffect");
   }, []);
-
-  if (error) {
-    return <div>Error: {error.message}</div>;
-  }
 
   return (
     <div className="min-h-screen w-full">
