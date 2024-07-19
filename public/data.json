@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Jhonny Dip",
+    "job_title": "Product Designer",
+    "rating": 5.0,
+    "contact_info": {
+      "phone": "+8801900000000",
+      "email": "example@gmail.com",
+      "website": "example.com"
+    },
+    "location": {
+      "company": "Spotify New York",
+      "address": "USA Inc 4 World Trade Center 150 Greenwich Street, 62nd Floor New York, NY 10007 USA",
+      "secondary_address": {
+        "name": "The Metropolitan Museum Of Art",
+        "address": "350 Fifth Avenue, New York City, NY 10118"
+      }
+    },
+    "skills": [
+      "Branding",
+      "UI/UX",
+      "Graphic Design",
+      "Web Design"
+    ],
+    "personal_info": {
+      "birthday": "8 July, 1993",
+      "gender": "Male"
+    }
+  },
+  "sections": {
+    "work": [
+      "Timeline",
+      "About"
+    ]
+  },
+  "actions": {
+    "message": "Send Message",
+    "contacts": "✓ Contacts",
+    "report": "Report User"
+  }
+}
